@@ -123,6 +123,25 @@ BasisFun = function(x){ cbind(x, x^2) }
 permutation_test(6, realdata, year.comp = c(1,2), BasisFun, c(0.05,0.5),
                  FUN = lrt_quantile_stat, nm = 'q.lrt.pm', param = 'quantile')
                  
+## Example for Within the Forest Product Modeling Group
+## using the NLGA_LTM_data_transformed.csv dataset
+# input <- read_csv("LTM data and Simulation code/NLGA_LTM_data_transformed.csv")
+# Year <- input$Myear
+# ID <- input$MillID
+# Value <- input$MOR
+# inputdata <- data.frame(Year, ID, Value)
+# realdata <- reformat(inputdata, c("2","3"))
+# tmod_mean_clus(realdata, year.comp = c(1,2))
+# 
+# permutedrealdata <- permute_data_rs(realdata,c(1,2), asked = 1)
+# 
+# permutation_test(6, realdata, year.comp = c(1,2), alpha.level = c(0.05,0.5),
+#                  FUN = em_quantile_stat, nm = 'q.em.pm', param = 'quantile', asked = 0)
+# 
+# BasisFun = function(x){ cbind(x, x^2) }
+# permutation_test(6, realdata, year.comp = c(1,2), BasisFun, c(0.05,0.5),
+#                  FUN = lrt_quantile_stat, nm = 'q.lrt.pm', param = 'quantile')
+                 
 ```
 
 ## Sample Images of the R Package Permutest
