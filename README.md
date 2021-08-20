@@ -5,7 +5,7 @@ Since most of my work done during these two appointments are on-going researches
 * 2019 School of Music Dr. Poudrier's Rhythm Computation and Cognition Lab. See Final-Report.pdf or Final-Report.docx file in this repository!!!!
 
 
-* 2021 Department of Statistics Research Assistant Dr. Jame V. Zidek and Dr. Jiahua Chen and Carolyn Taylor.
+* 2021 Department of Statistics Research Assistant Dr. Jame V. Zidek and Dr. Jiahua Chen and Carolyn Taylor. See below!!!
 
 # permutest
 
@@ -125,4 +125,7 @@ permutation_test(6, realdata, year.comp = c(1,2), BasisFun, c(0.05,0.5),
                  
 ```
 
-
+## Sample Images of the R Package Permutest
+![alt text](https://github.com/miyading/final-report/blob/master/Screen%20Shot%202021-08-19%20at%2011.20.07%20PM.png)
+![alt text](https://github.com/miyading/final-report/blob/master/Screen%20Shot%202021-08-19%20at%2011.20.18%20PM.png)
+![alt text](https://github.com/miyading/final-report/blob/master/Screen%20Shot%202021-08-19%20at%2011.20.53%20PM.png)
